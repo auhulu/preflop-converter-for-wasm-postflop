@@ -1,0 +1,22 @@
+{
+  "name": "preflp-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js",
+    "fmt": "npx @biomejs/biome check --write ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.2",
+    "@types/node": "^22.7.3",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@poker-apprentice/hand-range-notation": "^1.0.0"
+  }
+}
